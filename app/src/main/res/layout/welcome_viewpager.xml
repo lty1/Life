@@ -26,7 +26,7 @@
         android:id="@+id/welcome_vp_3"
         android:layout_width="300dp"
         android:layout_height="0dp"
-        android:layout_weight="0.7"
+        android:layout_weight="1"
         android:src="@drawable/welcome_desc_1"
         android:scaleType="fitXY" />
 </LinearLayout>
