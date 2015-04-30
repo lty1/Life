@@ -7,10 +7,12 @@ public class Scenes {
     private String sceneTitle;
     private String sceneTitleImage;
     private String sceneBackgroundImage;
+    private String sceneDescription;
 
-    public Scenes(String sceneTitle, String sceneTitleImage, String sceneBackgroundImage) {
+    public Scenes(String sceneTitle, String sceneTitleImage, String sceneBackgroundImage, String sceneDescription) {
         this.sceneTitle = sceneTitle;
         this.sceneTitleImage = sceneTitleImage;
         this.sceneBackgroundImage = sceneBackgroundImage;
+        this.sceneDescription = sceneDescription;
     }
 }
