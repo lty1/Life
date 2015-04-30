@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#ffffff">
+
+    <TextView
+        android:text="....从此 ，"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="20dp"
+        android:textColor="#ff41ee3f" />
+
+    <TextView
+        android:text="你和家人朋友过上了"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:textSize="20dp"
+        android:textColor="#ff41ee3f" />
+
+    <TextView
+        android:text="健康.快乐.幸福的生活"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#ff41ee3f" />
+
+    <RelativeLayout
+        android:layout_width="200dp"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/designed_by_huofar"
+            android:layout_above="@+id/welcome" />
+
+        <ImageView
+            android:id="@+id/welcome"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/welcome_footer"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+
+
+</LinearLayout>
